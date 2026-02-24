@@ -101,4 +101,4 @@ Demo for each project, side by side like scrolls unfurling
 <hr>
 
 - [ ] Link to visit the webpage:
-  - [ ] <a href="" target="_blank">🌸 Personal Website: EtariaLee 🌸</a>
+  - [ ] <a href="https://rlb-personal-website-etarialee.netlify.app" target="_blank">🌸 Personal Website: EtariaLee 🌸</a>
