@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Personal Website: EtariaLee</title>
+    <!-- & Link the CSS to style the webpage -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ This is the space at the top of the webpage that will make it easier to understand and navigate the webpage
+    -->
+    <header>
+        <!-- ~ This will be the header logo and title -->
+        <logo-heading class="flex-container">
+            <img
+                class="header-img"
+                src="img/a-header/retro-pixel-geisha-under-the-cherry-blossom tree.png"
+                alt="Retro Pixel Geisha Under The Cherry Blossom Tree"
+            >
+            <hr class="vertical-divider">
+            <title-heading>
+                <h1>🌸 Hi, Welcome!! 🌸</h1>
+                <br>
+                <h2>I'm EtariaLee, Frontend Developer</h2>
+            </title-heading>
+            <hr class="vertical-divider">
+            <img
+                class="header-img"
+                src="img/a-header/retro-pixel-geisha-under-the-cherry-blossom tree.png"
+                alt="Retro Pixel Geisha Under The Cherry Blossom Tree"
+            >
+        </logo-heading>
+        <br>
+        <hr class="header-divider">
+        <br>
+
+        <!-- & NavBar
+        ~ Links that will navigate to the other parts of the webpage
+        -->
+        <nav>
+            <ul class="nav-bar">
+                <li>
+                    <a class="nav-list" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="nav-list" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="nav-list" href="#contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <!-- & This section will be About myself and my embarking on my journey as a Frontend Developer -->
+        <section id="about">
+            <h2>🌸 Get To Know More About Me 🌸</h2>
+            <hr class="title-divider">
+            <br>
+
+            <p>
+                Hello, my name is EtariaLee and I am a Frontend Developer with a background in Accounting. Through several years of experience in
+                Accounting, I have learned how vital user-friendly and efficient systems can be in moving one’s day-to-day progressively
+                forward in a positive direction. However, I discovered a new passion for coding which led to me wanting to make technology more easily accessible to everyone. I chose to embark on this new journey and pursue it without looking back. I am overjoyed to continue to deepen my growth and knowledge on this new career path.
+            </p>
+            <p>
+                I am continuously working becomeing a better Frontend Developer through practice and enhancing my skills through various projects and collaborations. I am overjoyed to continue to deepen my growth and knowledge on this new career path.
+            </p>
+        </section>
+        <br>
+        <hr class="main-divider">
+        <br>
+
+        <!-- & This section will showcase some projects -->
+        <section id="projects">
+            <h2>🌸 Browse My Recent Projects 🌸</h2>
+            <hr class="title-divider">
+            <br>
+
+            <personal-projects class="project-gallery">
+                <!-- ~ This will showcase project 1 -->
+                <figure>
+                    <img
+                    class="project-1-img"
+                    src="img/b-main/project-1.png"
+                    alt="EtariaLee's Tea House Restaurant Menu"
+                    >
+                    <figcaption class="caption-container">
+                        <a class="project-link" href="https://github.com/RochelleLBeckford/restaurant-menu" target="_blank">GitHub</a>
+                        <a class="project-link" href="https://rlb-restaurant-menu.netlify.app" target="_blank">Live Demo</a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <!-- ~ This will showcase project 2 -->
+                    <img
+                        class="project-2-img"
+                        src="img/b-main/project-2.png"
+                        alt="Mock Tutorial on Setting Elements Positions"
+                    >
+                    <figcaption class="caption-container">
+                        <a class="project-link" href="https://github.com/RochelleLBeckford/its-all-relative" target="_blank">GitHub</a>
+                        <a class="project-link" href="https://rlb-its-all-relative.netlify.app" target="_blank">Live Demo</a>
+                    </figcaption>
+                </figure>
+            </personal-projects>
+            <br>
+            <br>
+
+            <personal-projects class="project-gallery">
+                <!-- ~ This will showcase project 3 -->
+                <figure>
+                    <img
+                    class="project-3-img"
+                    src="img/b-main/project-3.png"
+                    alt="The Library"
+                    >
+                    <figcaption class="caption-container">
+                        <a class="project-link" href="https://github.com/RochelleLBeckford/local-library" target="_blank">GitHub</a>
+                        <a class="project-link" href="https://rlb-local-library.netlify.app" target="_blank">Live Demo</a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <!-- ~ This will showcase project 4 -->
+                    <img
+                        class="project-4-img"
+                        src="img/b-main/project-4.png"
+                        alt="Ancient Visions of Asia Art Gallery"
+                    >
+                    <figcaption class="caption-container">
+                        <a class="project-link" href="https://github.com/RochelleLBeckford/ancient-visions-of-asia-art-gallery?tab=readme-ov-file" target="_blank">GitHub</a>
+                        <a class="project-link" href="https://rlb-ancient-visions-of-asia.netlify.app" target="_blank">Live Demo</a>
+                    </figcaption>
+                </figure>
+            </personal-projects>
+        </section>
+        <br>
+        <hr class="main-divider">
+        <br>
+
+        <!-- & This section will discuss how to Contact Us -->
+        <section id="contact-us">
+            <h2>🌸 Get In Touch Contact Me 🌸</h2>
+            <hr class="title-divider">
+            <br>
+
+            <reach-out class="flex-container">
+                <a class="contact-link" href="mailto:r.beckford@me.com">r.beckford@me.com</a>
+                <a class="contact-link" href="https://www.linkedin.com/in/rochelle-l-beckford/" target="_blank">LinkedIn</a>
+            </reach-out>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended sources or parts of the webpage
+            ~ In the <a> element -> use the following for the "href" attribute
+                ~ href = "/privacy"
+            ~ Also use the "target" attribute to open the link in a new web browser tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> this is the symbol for copyright
+    -->
+    <footer>
+        <footer-nav>
+            <ul class="footer-nav-bar">
+                <li>
+                    <a class="nav-list" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="nav-list" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="footer-list" href="#contact-us">Contact Us</a>
+                </li>
+            </ul>
+        </footer-nav>
+        <br>
+        <footer-logo class="flex-container">
+            <img
+            class="footer-img"
+            src="img/c-footer/retro-pixel-geisha.png"
+            alt="Retro Pixel Geisha"
+            >
+            <hr class="vertical-divider">
+            <p>
+                &copy; 2026 EtariaL33. All rights reserved.
+            </p>
+            <hr class="vertical-divider">
+            <img
+                class="footer-img"
+                src="img/c-footer/retro-pixel-geisha.png"
+                alt="Retro Pixel Geisha"
+            >
+        </footer-logo>
+    </footer>
+</body>
+</html>
+
